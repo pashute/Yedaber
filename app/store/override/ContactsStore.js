@@ -26,87 +26,85 @@ Ext.define('Wiztalk.store.ContactsStore', {
         proxy: {
             type: 'rest',
             actionMethods: {
-                create: contactsCreate ,
-                read: contactsRead,
-                update: contactsUpdate,
-                destroy: contactsDestroy
-            }
-        }
-    },
-    contactsCreate: function(operation, callback, scope) {
-        // tbd
-    },
-    contactsRead: function(operation, callback, scope){
-        var thisProxy = this;
-        navigator.contacts.find(
-            ['id', 'name', 'emails', 'phoneNumbers', 'addresses'],
-            function(deviceContacts) {
-                //loop over deviceContacts and create Contact model instances
-                var contacts = [];
-                for (var i = 0; i < deviceContacts.length; i++) {
-                    var deviceContact = deviceContacts[ i ];
-                    var contact = new thisProxy.model({
-                        id: deviceContact.id,
-                        givenName: deviceContact.name.givenName,
-                        familyName: deviceContact.name.familyName,
-                        emails: deviceContact.emails,
-                        phoneNumbers: deviceContact.phoneNumbers
-                    });
-                    contact.deviceContact = deviceContact;
-                    contacts.push(contact);
-                }  // device contacts length
-    
-                //return model instances in a result set
-                operation.resultSet = new Ext.data.ResultSet({
-                    records: contacts,
-                    total  : contacts.length,
-                    loaded : true
+                create: 'contactsCreate' ,
+                read: 'contactsRead',
+                update: 'contactsUpdate',
+                destroy: 'contactsDestroy'
+            },
+            "contactsCreate": function(operation, callback, scope) {
+                // tbd
+            },
+            "contactsRead": function(operation, callback, scope){
+                var thisProxy = this;
+                navigator.contacts.find(
+                    ['id', 'name', 'emails', 'phoneNumbers', 'addresses'],
+                    function(deviceContacts) {
+                        //loop over deviceContacts and create Contact model instances
+                        var contacts = [];
+                        for (var i = 0; i < deviceContacts.length; i++) {
+                            var deviceContact = deviceContacts[ i ];
+                            var contact = new thisProxy.model({
+                                id: deviceContact.id,
+                                givenName: deviceContact.name.givenName,
+                                familyName: deviceContact.name.familyName,
+                                emails: deviceContact.emails,
+                                phoneNumbers: deviceContact.phoneNumbers
+                            });
+                            contact.deviceContact = deviceContact;
+                            contacts.push(contact);
+                        }  // device contacts length
+
+                        //return model instances in a result set
+                        operation.resultSet = new Ext.data.ResultSet({
+                            records: contacts,
+                            total  : contacts.length,
+                            loaded : true
+                        });
+
+                        //announce success
+                        operation.setSuccessful();
+                        operation.setCompleted();
+
+                        //finish with callback
+                        if (typeof callback == "function") {
+                            callback.call(scope || thisProxy, operation);
+                        }
+                    },
+                    function (e) {
+                        console.log('Error fetching contacts');
+                    },
+                    {multiple: true}
+                );
+            },
+            "contactsUpdate": function(operation, callback, scope){
+
+                operation.setStarted();
+
+                //put model data back into deviceContact
+                var deviceContact = operation.records[0].deviceContact;
+                var contact = operation.records[0].data;
+                deviceContact.name.givenName = contact.givenName;
+                deviceContact.name.familyName = contact.familyName;
+
+                //save back via PhoneGap
+                var thisProxy = this;
+                deviceContact.save(function() {
+                    //announce success
+                    operation.setCompleted();
+                    operation.setSuccessful();
+
+                    //finish with callback
+                    if (typeof callback == 'function') {
+                        callback.call(scope || thisProxy, operation);
+                    }
                 });
-    
-                //announce success
-                operation.setSuccessful();
-                operation.setCompleted();
-    
-                //finish with callback
-                if (typeof callback == "function") {
-                    callback.call(scope || thisProxy, operation);
-                }
             },
-            function (e) {
-                console.log('Error fetching contacts');
-            },
-            {multiple: true}
-        );
-    },
-    contactsUpdate: function(operation, callback, scope){
-
-        operation.setStarted();
-
-        //put model data back into deviceContact
-        var deviceContact = operation.records[0].deviceContact;
-        var contact = operation.records[0].data;
-        deviceContact.name.givenName = contact.givenName;
-        deviceContact.name.familyName = contact.familyName;
-
-        //save back via PhoneGap
-        var thisProxy = this;
-        deviceContact.save(function() {
-            //announce success
-            operation.setCompleted();
-            operation.setSuccessful();
-
-            //finish with callback
-            if (typeof callback == 'function') {
-                callback.call(scope || thisProxy, operation);
+            "contactsDestroy": function (operation, callback, scope){
+                // seek and destroy !!    TBD
             }
-        });
-    },
-    contactsDestroy: function (operation, callback, scope){
-        // seek and destroy !!    TBD
-    } 
-
+        }    // of proxy
+    }
 });
-
 
 
 

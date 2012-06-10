@@ -32,7 +32,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyRestProxy"
+                "designer|userClassName": "MyRestProxy",
+                "actionMethods": null
             },
             "customConfigs": [
                 {
