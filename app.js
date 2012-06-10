@@ -39,8 +39,6 @@ Ext.application({
     ],
 
     launch: function() {
-        console.log("App launched. Next line should work ok");
-        //console.log("Sencha with PhoneGap on an " + navigator.platform);
 
         Ext.create('Wiztalk.view.WizMainTabPanel', {fullscreen: true});
     }
