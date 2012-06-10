@@ -1,0 +1,900 @@
+{
+    "id": "ExtBox1-ext-gen2975",
+    "type": "tabpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userClassName": "WizMainTabPanel"
+    },
+    "customConfigs": [],
+    "designerId": "f8fe8357-0464-4749-bf0c-23cf38668d29",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen2985",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": null,
+                "itemId": "kbContainer",
+                "style": "background: #000024",
+                "layout": "vbox",
+                "designer|userClassName": "KbContainer",
+                "designer|userAlias": "kbcontainer",
+                "title": "Keyboard",
+                "iconCls": "compose"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen2979",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": null,
+                        "html": "",
+                        "itemId": "kbTopRowContainer",
+                        "designer|userClassName": "MyContainer7",
+                        "layout|flex": 1.2
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen9225",
+                            "type": "label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": null,
+                                "height": null,
+                                "html": "+972 (52) 456-6440",
+                                "itemId": "phoneNumLabel",
+                                "margin": 5,
+                                "style": null,
+                                "styleHtmlContent": true,
+                                "designer|userClassName": "MyLabel"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen10946",
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": null,
+                                "itemId": "infoContainer",
+                                "designer|userClassName": "MyContainer14"
+                            },
+                            "customConfigs": [],
+                            "expanded": true,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen11428",
+                                    "type": "label",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "docked": null,
+                                        "html": "No information",
+                                        "itemId": "kbInfoLabel",
+                                        "styleHtmlContent": true,
+                                        "designer|userClassName": "MyLabel1"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen3319",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "",
+                        "itemId": "kbGridContainer",
+                        "layout": "vbox",
+                        "designer|userClassName": "MyContainer8",
+                        "layout|flex": 4
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen16012",
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "kbRowA123",
+                                "layout": "hbox",
+                                "designer|userClassName": "MyContainer9",
+                                "layout|flex": 1
+                            },
+                            "customConfigs": [],
+                            "expanded": true,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen19856",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "cls": null,
+                                        "html": "1<br><font size=\"2%\">&nbsp;</font>",
+                                        "itemId": "kbButton1",
+                                        "style": "",
+                                        "styleHtmlContent": true,
+                                        "ui": null,
+                                        "iconCls": null,
+                                        "iconMask": true,
+                                        "text": "",
+                                        "designer|userClassName": "MyButton",
+                                        "layout|flex": 1
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen20064",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "cls": "",
+                                        "html": "2<br><font size=\"2%\">ABC</font>",
+                                        "itemId": "kbButton2",
+                                        "style": null,
+                                        "styleHtmlContent": true,
+                                        "ui": null,
+                                        "text": "",
+                                        "designer|userClassName": "MyButton1",
+                                        "layout|flex": 1
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen20238",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "cls": null,
+                                        "html": "3<br><font size=\"2%\">DEF</font>",
+                                        "itemId": "kbButton3",
+                                        "style": null,
+                                        "styleHtmlContent": true,
+                                        "ui": null,
+                                        "text": "",
+                                        "designer|userClassName": "MyButton2",
+                                        "layout|flex": 1
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen16211",
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "kbRowB456",
+                                "layout": "hbox",
+                                "designer|userClassName": "MyContainer10",
+                                "layout|flex": 1
+                            },
+                            "customConfigs": [],
+                            "expanded": true,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen21305",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "4<br><font size=\"2%\">GHI</font>",
+                                        "itemId": "kbButton4",
+                                        "style": null,
+                                        "styleHtmlContent": true,
+                                        "ui": null,
+                                        "text": "",
+                                        "designer|userClassName": "MyButton2",
+                                        "layout|flex": 1
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen21919",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "5<br><font size=\"2%\">JKL</font>",
+                                        "itemId": "kbButton5",
+                                        "style": null,
+                                        "styleHtmlContent": true,
+                                        "ui": null,
+                                        "text": "",
+                                        "designer|userClassName": "MyButton2",
+                                        "layout|flex": 1
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen38733",
+                                            "type": "basiceventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "fn": "onKbButton5Tap",
+                                                "implHandler": [
+                                                    ""
+                                                ],
+                                                "name": "tap",
+                                                "designer|userClassName": "onKbButton5Tap"
+                                            },
+                                            "customConfigs": [],
+                                            "expanded": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen21736",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "6<br><font size=\"2%\">MNO</font>",
+                                        "itemId": "kbButton6",
+                                        "style": null,
+                                        "styleHtmlContent": true,
+                                        "text": "",
+                                        "designer|userClassName": "MyButton2",
+                                        "layout|flex": 1
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen39137",
+                                            "type": "basiceventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "fn": "onKbButton6Tap",
+                                                "implHandler": [
+                                                    ""
+                                                ],
+                                                "name": "tap",
+                                                "designer|userClassName": "onKbButton6Tap"
+                                            },
+                                            "customConfigs": [],
+                                            "expanded": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen16349",
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "kbRowC789",
+                                "layout": "hbox",
+                                "designer|userClassName": "MyContainer11",
+                                "layout|flex": 1
+                            },
+                            "customConfigs": [],
+                            "expanded": true,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen23126",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "7<br><font size=\"2%\">PQRS</font>",
+                                        "itemId": "kbButton7",
+                                        "style": null,
+                                        "styleHtmlContent": true,
+                                        "text": "",
+                                        "designer|userClassName": "MyButton2",
+                                        "layout|flex": 1
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen39533",
+                                            "type": "basiceventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "fn": "onKbButton7Tap",
+                                                "name": "tap",
+                                                "designer|userClassName": "onKbButton7Tap"
+                                            },
+                                            "customConfigs": [],
+                                            "expanded": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen23687",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "8<br><font size=\"2%\">TUV </font>",
+                                        "itemId": "kbButton8",
+                                        "style": null,
+                                        "styleHtmlContent": true,
+                                        "text": "",
+                                        "designer|userClassName": "MyButton2",
+                                        "layout|flex": 1
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen39847",
+                                            "type": "basiceventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "fn": "onKbButton8Tap",
+                                                "implHandler": [
+                                                    ""
+                                                ],
+                                                "name": "tap",
+                                                "designer|userClassName": "onKbButton8Tap"
+                                            },
+                                            "customConfigs": [],
+                                            "expanded": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen23914",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "9<br><font size=\"2%\">WXYZ</font>",
+                                        "itemId": "kbButton9",
+                                        "style": null,
+                                        "styleHtmlContent": true,
+                                        "text": "",
+                                        "designer|userClassName": "MyButton2",
+                                        "layout|flex": 1
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen40246",
+                                            "type": "basiceventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "fn": "onKbButton9Tap",
+                                                "implHandler": [
+                                                    ""
+                                                ],
+                                                "name": "tap",
+                                                "designer|userClassName": "onKbButton9Tap"
+                                            },
+                                            "customConfigs": [],
+                                            "expanded": true
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen16488",
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "kbRowDstr0pnd",
+                                "layout": "hbox",
+                                "designer|userClassName": "MyContainer12",
+                                "layout|flex": 1
+                            },
+                            "customConfigs": [],
+                            "expanded": true,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen24721",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "<font size=\"6%\">*</font><br><font size=\"2%\"> </font>",
+                                        "itemId": "kbButtonStar",
+                                        "style": null,
+                                        "styleHtmlContent": true,
+                                        "text": "",
+                                        "designer|userClassName": "MyButton2",
+                                        "layout|flex": 1
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen40652",
+                                            "type": "basiceventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "fn": "onKbButtonStarTap",
+                                                "implHandler": [
+                                                    ""
+                                                ],
+                                                "name": "tap",
+                                                "designer|userClassName": "onKbButtonStarTap"
+                                            },
+                                            "customConfigs": [],
+                                            "expanded": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen25630",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "0<br><font size=\"2%\">+</font>",
+                                        "itemId": "kbButton0",
+                                        "style": null,
+                                        "styleHtmlContent": true,
+                                        "text": "",
+                                        "designer|userClassName": "MyButton2",
+                                        "layout|flex": 1
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true,
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen43818",
+                                            "type": "basiceventbinding",
+                                            "reference": {
+                                                "name": "listeners",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "fn": "onKbButton0Taphold",
+                                                "designer|params": [
+                                                    "button"
+                                                ],
+                                                "implHandler": [
+                                                    "console.log(\"addPhonedigit ,\");\r",
+                                                    "//addPhoneDigit(',');\r",
+                                                    "           "
+                                                ],
+                                                "name": "Taphold",
+                                                "designer|userClassName": "onKbButton0Taphold"
+                                            },
+                                            "customConfigs": [],
+                                            "expanded": true
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen25875",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "#<br><font size=\"2%\">&nbsp;</font>",
+                                        "itemId": "kbButtonHash",
+                                        "style": null,
+                                        "styleHtmlContent": true,
+                                        "text": "",
+                                        "designer|userClassName": "MyButton2",
+                                        "layout|flex": 1
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen16633",
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "kbRowEsend",
+                                "layout": "hbox",
+                                "designer|userClassName": "MyContainer13",
+                                "layout|flex": 1
+                            },
+                            "customConfigs": [],
+                            "expanded": true,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen27016",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "<font size=\"2%\">Compare</font>",
+                                        "itemId": "kbButtonCompareOrAddContact",
+                                        "ui": "decline",
+                                        "text": "Compare",
+                                        "designer|userClassName": "MyButton2",
+                                        "layout|flex": 1
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen27604",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "<font size=\"2%\">Send</font>",
+                                        "itemId": "kbButtonSend",
+                                        "style": null,
+                                        "ui": "confirm",
+                                        "text": "Send",
+                                        "designer|userClassName": "MyButton2",
+                                        "layout|flex": 1
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen28197",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "html": "X",
+                                        "itemId": "kbButtonDel",
+                                        "style": null,
+                                        "ui": "decline",
+                                        "iconCls": null,
+                                        "iconMask": true,
+                                        "text": "",
+                                        "designer|userClassName": "MyButton2",
+                                        "layout|flex": 1
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen16903",
+            "type": "tabpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "contactsTabContainer",
+                "designer|userClassName": "ContactsTabPanel",
+                "designer|userAlias": "contactsTabPanel",
+                "title": "Contacts",
+                "iconCls": "team"
+            },
+            "customConfigs": [],
+            "expanded": false,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen2993",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "contactsContainer",
+                        "style": "",
+                        "designer|userClassName": "ContactsContainer",
+                        "designer|userAlias": "contactsContainer",
+                        "title": "Contacts"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen9501",
+                            "type": "navigationview",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyNavigationView"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen16290",
+                            "type": "container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "newContactContainer",
+                                "designer|userClassName": "ContactNew"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen4186",
+                            "type": "list",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "itemId": "contactsList",
+                                "itemTpl": "<div>List Item {string}</div>",
+                                "store": "contactsStore",
+                                "grouped": true,
+                                "onItemDisclosure": true,
+                                "designer|userClassName": "MyList"
+                            },
+                            "customConfigs": [],
+                            "expanded": true,
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen4649",
+                                    "type": "listpaging",
+                                    "reference": {
+                                        "name": "plugins",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "autoPaging": true,
+                                        "designer|userClassName": "MyListPagingPlugin"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen36460",
+                                    "type": "listindexbar",
+                                    "reference": {
+                                        "name": "indexBar",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "itemId": "contactsIndexBar",
+                                        "designer|userClassName": "MyIndexBar"
+                                    },
+                                    "customConfigs": [],
+                                    "expanded": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen16926",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "favoritesContainer",
+                        "designer|userClassName": "MyContainer11",
+                        "title": "Favorites"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen3001",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "lastCallsContainer",
+                "designer|userClassName": "LastcallsContainer",
+                "designer|userAlias": "lastcallsContainer",
+                "title": "Last calls",
+                "iconCls": "time"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen5043",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "reportsContainer",
+                "designer|userClassName": "ReportsContainer",
+                "designer|userAlias": "reportsContainer",
+                "title": "Reports",
+                "iconCls": "favorites"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen5420",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "moreContainer",
+                "designer|userClassName": "MoreContainer",
+                "designer|userAlias": "moreContainer",
+                "title": "More",
+                "iconCls": "more"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen3798",
+            "type": "tabbar",
+            "reference": {
+                "name": "tabBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom",
+                "designer|userClassName": "MyTabBar"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-tab-bar",
+            "expanded": true
+        }
+    ]
+}

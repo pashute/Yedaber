@@ -1,0 +1,134 @@
+{
+    "id": "ExtBox1-ext-gen28094",
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "KbController",
+        "designer|userAlias": "kbController"
+    },
+    "customConfigs": [],
+    "designerId": "9e69c6b9-1add-4af2-8510-42fb033eab4a",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen28099",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onKbButton1Tap",
+                "implHandler": [
+                    "// fill this in intellij moshezzz\r",
+                    "console.log(\"single contact\");\r",
+                    "//displayASingleContact();\r",
+                    "\r",
+                    "\r",
+                    ""
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#kbButton1",
+                "designer|userClassName": "onKbButton1Tap"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen35198",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onKbButton3Tap",
+                "implHandler": [
+                    "console.log(\"beep beep\");\r",
+                    "navigator.notification.beep(2);\r",
+                    "console.log(\"after beep\");\r",
+                    ""
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#kbButton3",
+                "designer|userClassName": "onKbButton3Tap"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen49567",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onKbButton0Tap",
+                "implHandler": [
+                    "console.log(\"addPhoneDigit 0\");\r",
+                    "//addPhoneDigit('0');\r",
+                    ""
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#kbButton0",
+                "designer|userClassName": "onKbButton0Tap"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen49837",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onKbButton4Tap",
+                "implHandler": [
+                    ""
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#kbButton4",
+                "designer|userClassName": "onKbButton4Tap"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen50106",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onKbButton2Tap",
+                "implHandler": [
+                    ""
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#kbButton2",
+                "designer|userClassName": "onKbButton2Tap"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

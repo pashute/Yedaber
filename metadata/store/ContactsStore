@@ -1,0 +1,47 @@
+{
+    "id": "ExtBox1-ext-gen4997",
+    "type": "store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "Contact",
+        "storeId": "contactsStore",
+        "designer|userClassName": "ContactsStore",
+        "designer|userAlias": "contactsStore"
+    },
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "plugins",
+            "type": "string"
+        }
+    ],
+    "designerId": "507504ed-2b87-4f26-858e-f8f54a263d20",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen4044",
+            "type": "restproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyRestProxy"
+            },
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "actionMethods",
+                    "type": "string"
+                }
+            ],
+            "expanded": true
+        }
+    ]
+}

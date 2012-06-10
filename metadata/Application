@@ -1,0 +1,53 @@
+{
+    "id": "ExtBox1-ext-gen2231",
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Contact"
+        ],
+        "stores": [
+            "ContactsStore"
+        ],
+        "views": [
+            "WizMainTabPanel"
+        ],
+        "icon": "PhoneIco.png",
+        "name": "Wiztalk",
+        "controllers": [
+            "KbController"
+        ]
+    },
+    "customConfigs": [],
+    "designerId": "application",
+    "$viewOrder": 0,
+    "iconCls": "icon-application",
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen31874",
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "launch",
+                "implHandler": [
+                    "console.log(\"App launched. Next line should work ok\");\r",
+                    "//console.log(\"Sencha with PhoneGap on an \" + navigator.platform);\r",
+                    ""
+                ],
+                "designer|userClassName": "launch"
+            },
+            "customConfigs": [],
+            "iconCls": "icon-basic-function",
+            "expanded": true
+        }
+    ]
+}

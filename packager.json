@@ -1,0 +1,16 @@
+{
+    "applicationName": "Wiztalk1",
+    "applicationId": "com.netsource.Wiztalk1",
+    "bundleSeedId": "",
+    "versionString": "0.4",
+    "iconName": "",
+    "inputPath": "webapp/",
+    "outputPath": "../build/",
+    "configuration": "Debug",
+    "platform": "AndroidEmulator",
+    "deviceType": "Universal",
+    "certificatePath": "",
+    "certificateAlias": "",
+    "sdkPath": "C:\\Program Files (x86)\\SenchaSDKTools-2.0.0-beta3\\bin",
+    "androidAPILevel": ""
+}
