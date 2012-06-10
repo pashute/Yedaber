@@ -310,74 +310,7 @@ Ext.define('Wiztalk.view.WizMainTabPanel', {
         ],
         tabBar: {
             docked: 'bottom'
-        },
-        listeners: [
-            {
-                fn: 'onKbButton5Tap',
-                event: 'tap',
-                delegate: '#kbButton5'
-            },
-            {
-                fn: 'onKbButton6Tap',
-                event: 'tap',
-                delegate: '#kbButton6'
-            },
-            {
-                fn: 'onKbButton7Tap',
-                event: 'tap',
-                delegate: '#kbButton7'
-            },
-            {
-                fn: 'onKbButton8Tap',
-                event: 'tap',
-                delegate: '#kbButton8'
-            },
-            {
-                fn: 'onKbButton9Tap',
-                event: 'tap',
-                delegate: '#kbButton9'
-            },
-            {
-                fn: 'onKbButtonStarTap',
-                event: 'tap',
-                delegate: '#kbButtonStar'
-            },
-            {
-                fn: 'onKbButton0Taphold',
-                event: 'Taphold',
-                delegate: '#kbButton0'
-            }
-        ]
-    },
-
-    onKbButton5Tap: function(button, e, options) {
-
-    },
-
-    onKbButton6Tap: function(button, e, options) {
-
-    },
-
-    onKbButton7Tap: function(button, e, options) {
-
-    },
-
-    onKbButton8Tap: function(button, e, options) {
-
-    },
-
-    onKbButton9Tap: function(button, e, options) {
-
-    },
-
-    onKbButtonStarTap: function(button, e, options) {
-
-    },
-
-    onKbButton0Taphold: function(button) {
-        console.log("addPhonedigit ,");
-        //addPhoneDigit(',');
-
+        }
     }
 
 });

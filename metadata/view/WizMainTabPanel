@@ -275,28 +275,7 @@
                                         "layout|flex": 1
                                     },
                                     "customConfigs": [],
-                                    "expanded": true,
-                                    "cn": [
-                                        {
-                                            "id": "ExtBox1-ext-gen38733",
-                                            "type": "basiceventbinding",
-                                            "reference": {
-                                                "name": "listeners",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "fn": "onKbButton5Tap",
-                                                "implHandler": [
-                                                    ""
-                                                ],
-                                                "name": "tap",
-                                                "designer|userClassName": "onKbButton5Tap"
-                                            },
-                                            "customConfigs": [],
-                                            "expanded": true
-                                        }
-                                    ]
+                                    "expanded": true
                                 },
                                 {
                                     "id": "ExtBox1-ext-gen21736",
@@ -316,28 +295,7 @@
                                         "layout|flex": 1
                                     },
                                     "customConfigs": [],
-                                    "expanded": true,
-                                    "cn": [
-                                        {
-                                            "id": "ExtBox1-ext-gen39137",
-                                            "type": "basiceventbinding",
-                                            "reference": {
-                                                "name": "listeners",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "fn": "onKbButton6Tap",
-                                                "implHandler": [
-                                                    ""
-                                                ],
-                                                "name": "tap",
-                                                "designer|userClassName": "onKbButton6Tap"
-                                            },
-                                            "customConfigs": [],
-                                            "expanded": true
-                                        }
-                                    ]
+                                    "expanded": true
                                 }
                             ]
                         },
@@ -376,25 +334,7 @@
                                         "layout|flex": 1
                                     },
                                     "customConfigs": [],
-                                    "expanded": true,
-                                    "cn": [
-                                        {
-                                            "id": "ExtBox1-ext-gen39533",
-                                            "type": "basiceventbinding",
-                                            "reference": {
-                                                "name": "listeners",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "fn": "onKbButton7Tap",
-                                                "name": "tap",
-                                                "designer|userClassName": "onKbButton7Tap"
-                                            },
-                                            "customConfigs": [],
-                                            "expanded": true
-                                        }
-                                    ]
+                                    "expanded": true
                                 },
                                 {
                                     "id": "ExtBox1-ext-gen23687",
@@ -414,28 +354,7 @@
                                         "layout|flex": 1
                                     },
                                     "customConfigs": [],
-                                    "expanded": true,
-                                    "cn": [
-                                        {
-                                            "id": "ExtBox1-ext-gen39847",
-                                            "type": "basiceventbinding",
-                                            "reference": {
-                                                "name": "listeners",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "fn": "onKbButton8Tap",
-                                                "implHandler": [
-                                                    ""
-                                                ],
-                                                "name": "tap",
-                                                "designer|userClassName": "onKbButton8Tap"
-                                            },
-                                            "customConfigs": [],
-                                            "expanded": true
-                                        }
-                                    ]
+                                    "expanded": true
                                 },
                                 {
                                     "id": "ExtBox1-ext-gen23914",
@@ -455,28 +374,7 @@
                                         "layout|flex": 1
                                     },
                                     "customConfigs": [],
-                                    "expanded": true,
-                                    "cn": [
-                                        {
-                                            "id": "ExtBox1-ext-gen40246",
-                                            "type": "basiceventbinding",
-                                            "reference": {
-                                                "name": "listeners",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "fn": "onKbButton9Tap",
-                                                "implHandler": [
-                                                    ""
-                                                ],
-                                                "name": "tap",
-                                                "designer|userClassName": "onKbButton9Tap"
-                                            },
-                                            "customConfigs": [],
-                                            "expanded": true
-                                        }
-                                    ]
+                                    "expanded": true
                                 }
                             ]
                         },
@@ -515,28 +413,7 @@
                                         "layout|flex": 1
                                     },
                                     "customConfigs": [],
-                                    "expanded": true,
-                                    "cn": [
-                                        {
-                                            "id": "ExtBox1-ext-gen40652",
-                                            "type": "basiceventbinding",
-                                            "reference": {
-                                                "name": "listeners",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "fn": "onKbButtonStarTap",
-                                                "implHandler": [
-                                                    ""
-                                                ],
-                                                "name": "tap",
-                                                "designer|userClassName": "onKbButtonStarTap"
-                                            },
-                                            "customConfigs": [],
-                                            "expanded": true
-                                        }
-                                    ]
+                                    "expanded": true
                                 },
                                 {
                                     "id": "ExtBox1-ext-gen25630",
@@ -556,33 +433,7 @@
                                         "layout|flex": 1
                                     },
                                     "customConfigs": [],
-                                    "expanded": true,
-                                    "cn": [
-                                        {
-                                            "id": "ExtBox1-ext-gen43818",
-                                            "type": "basiceventbinding",
-                                            "reference": {
-                                                "name": "listeners",
-                                                "type": "array"
-                                            },
-                                            "codeClass": null,
-                                            "userConfig": {
-                                                "fn": "onKbButton0Taphold",
-                                                "designer|params": [
-                                                    "button"
-                                                ],
-                                                "implHandler": [
-                                                    "console.log(\"addPhonedigit ,\");\r",
-                                                    "//addPhoneDigit(',');\r",
-                                                    "           "
-                                                ],
-                                                "name": "Taphold",
-                                                "designer|userClassName": "onKbButton0Taphold"
-                                            },
-                                            "customConfigs": [],
-                                            "expanded": true
-                                        }
-                                    ]
+                                    "expanded": true
                                 },
                                 {
                                     "id": "ExtBox1-ext-gen25875",
