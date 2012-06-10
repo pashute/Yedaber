@@ -7,6 +7,9 @@
     },
     "codeClass": null,
     "userConfig": {
+        "data": "[\"Moshe Flam III\", \"Haim Arbel\"]",
+        "groupDir": "ASC",
+        "groupField": "givenName",
         "model": "Contact",
         "storeId": "contactsStore",
         "designer|userClassName": "ContactsStore",

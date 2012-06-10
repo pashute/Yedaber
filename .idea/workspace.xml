@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5fcb72d7-3d89-47da-948a-215914c0e226" name="Default" comment="removed local event handlers">
+    <list default="true" id="5fcb72d7-3d89-47da-948a-215914c0e226" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\moshef\Documents\SenchaProjects\Wiztalk1\app\store\override\ContactsStore.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Wiztalk1.xds" afterPath="$PROJECT_DIR$/Wiztalk1.xds" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controller/override/KbController.js" afterPath="$PROJECT_DIR$/app/controller/override/KbController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/store/ContactsStore.js" afterPath="$PROJECT_DIR$/app/store/ContactsStore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/Application" afterPath="$PROJECT_DIR$/metadata/Application" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/controller/KbController" afterPath="$PROJECT_DIR$/metadata/controller/KbController" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/store/ContactsStore" afterPath="$PROJECT_DIR$/metadata/store/ContactsStore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata/view/WizMainTabPanel" afterPath="$PROJECT_DIR$/metadata/view/WizMainTabPanel" />
     </list>
     <ignored path="Wiztalk1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,19 +68,7 @@
     <favorites_list name="Wiztalk1" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ContactsStore.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/store/override/ContactsStore.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="33" selection-start="0" selection-end="4245" vertical-scroll-proportion="0.03195489">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -305,28 +302,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="override" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Wiztalk1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Wiztalk1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -343,28 +318,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Wiztalk1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Wiztalk1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="override" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -493,7 +446,11 @@
       <created>1339348299989</created>
       <updated>1339348299989</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="contactsStore txt before deleting it">
+      <created>1339348332101</created>
+      <updated>1339348332101</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -583,7 +540,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="contactsStore corrected with parenthesis" />
+    <option name="LAST_COMMIT_MESSAGE" value="contactsStore txt before deleting it" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -608,6 +565,7 @@
     <MESSAGE value="Override cleanup" />
     <MESSAGE value="hope to fix the two overrides?" />
     <MESSAGE value="contactsStore corrected with parenthesis" />
+    <MESSAGE value="contactsStore txt before deleting it" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -674,9 +632,7 @@
     <entry file="file://$PROJECT_DIR$/app/controller/override/KbController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="4" selection-start="2067" selection-end="2067" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -684,15 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="88" selection-start="549" selection-end="549" vertical-scroll-proportion="0.11208791">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/store/override/ContactsStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="33" selection-start="0" selection-end="4245" vertical-scroll-proportion="0.03195489">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

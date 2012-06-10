@@ -21,6 +21,12 @@ Ext.define('Wiztalk.store.ContactsStore', {
     ],
 
     config: {
+        data: [
+            'Moshe Flam III',
+            'Haim Arbel'
+        ],
+        groupDir: 'ASC',
+        groupField: 'givenName',
         model: 'Wiztalk.model.Contact',
         storeId: 'contactsStore',
         proxy: {
