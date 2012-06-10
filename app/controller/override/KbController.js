@@ -50,13 +50,13 @@ Ext.define('Wiztalk.controller.KbController', {
                 taphold: 'onKbButtonTaphold'
             },
             "#kbButtonStar": {
-                tap: 'onKbButtonTap'
+                tap: 'onKbButtonTap',
+                taphold: 'onKbButtonTaphold'
             },
             "#kbButtonHash": {
                 tap: 'onKbButtonTap',
                 taphold: 'onKbButtonTaphold'
             },
-
             "#kbButtonDel": {
                 tap: 'onKbButtonDel'
             },
@@ -83,11 +83,15 @@ Ext.define('Wiztalk.controller.KbController', {
         else if (button.itemId == 'kbButton7') addDigit('7');
         else if (button.itemId == 'kbButton8') addDigit('8');
         else if (button.itemId == 'kbButton9') addDigit('9');
+        else if (button.itemId == 'kbButtonHash') addDigit ('#');
+        else if (button.itemId == 'kbButtonStar') addDigit ('Star');
 
     },
 
     onKbButtonTapHold: function(button, e, options) {
         if (button.itemId == 'kbButton0') addDigit('+');
+        else if (button.itemId == 'kbButtonHash') addDigit(',');
+        else if (button.itemId == 'kbButtonStar') addDigit('p');
     },
 
     onKbButtonDel: function(button, e, options) {
