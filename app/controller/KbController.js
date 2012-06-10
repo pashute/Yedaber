@@ -17,53 +17,5 @@ Ext.define('Wiztalk.controller.KbController', {
     extend: 'Ext.app.Controller',
     alias: 'controller.kbController',
     config: {
-        control: {
-            "#kbButton1": {
-                tap: 'onKbButton1Tap'
-            },
-            "#kbButton3": {
-                tap: 'onKbButton3Tap'
-            },
-            "#kbButton0": {
-                tap: 'onKbButton0Tap'
-            },
-            "#kbButton4": {
-                tap: 'onKbButton4Tap'
-            },
-            "#kbButton2": {
-                tap: 'onKbButton2Tap'
-            }
-        }
-    },
-
-    onKbButton1Tap: function(button, e, options) {
-        // fill this in intellij moshezzz
-        console.log("single contact");
-        //displayASingleContact();
-
-
-
-    },
-
-    onKbButton3Tap: function(button, e, options) {
-        console.log("beep beep");
-        navigator.notification.beep(2);
-        console.log("after beep");
-
-    },
-
-    onKbButton0Tap: function(button, e, options) {
-        console.log("addPhoneDigit 0");
-        //addPhoneDigit('0');
-
-    },
-
-    onKbButton4Tap: function(button, e, options) {
-
-    },
-
-    onKbButton2Tap: function(button, e, options) {
-
     }
-
 });

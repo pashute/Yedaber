@@ -56,7 +56,7 @@
         "data": true,
         "model": false,
         "component": true,
-        "controller": false,
+        "controller": true,
         "resource": true
     }
 }

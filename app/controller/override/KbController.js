@@ -47,21 +47,19 @@ Ext.define('Wiztalk.controller.KbController', {
             },
             "#kbButton0": {
                 tap: 'onKbButtonTap',
-                taphold: 'onKbButtonTaphold'
+                taphold: 'onKbButtonTapHold'
             },
             "#kbButtonStar": {
                 tap: 'onKbButtonTap',
-                taphold: 'onKbButtonTaphold'
+                taphold: 'onKbButtonTapHold'
             },
             "#kbButtonHash": {
                 tap: 'onKbButtonTap',
-                taphold: 'onKbButtonTaphold'
+                taphold: 'onKbButtonTapHold'
             },
             "#kbButtonDel": {
                 tap: 'onKbButtonDel'
             },
-
-
             "#kbButtonCompareOrAddContact": {
                 tap: 'onKbButtonCompare'
             },
