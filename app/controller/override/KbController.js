@@ -69,7 +69,7 @@ Ext.define('Wiztalk.controller.KbController', {
         }
     },
 
-    onKbButtonTap: function(button, event, options) {
+    onKbButtonTap: function(button, e, options) {
         // fill this in intellij moshezzz
         if (button.itemId == 'kbButton0') addDigit(0);
         else if (button.itemId == 'kbButton1') addDigit('1');
@@ -104,6 +104,7 @@ Ext.define('Wiztalk.controller.KbController', {
         // tbd
     }
 });
+
 function addDigit(digit) {
     console.log("adding digit " + digit);
     // add a digit
