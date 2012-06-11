@@ -35,11 +35,13 @@ Ext.define('Wiztalk.view.WizMainTabPanel', {
                         flex: 1.2,
                         items: [
                             {
-                                xtype: 'label',
-                                html: '+972 (52) 456-6440',
-                                itemId: 'phoneNumLabel',
-                                margin: 5,
-                                styleHtmlContent: true
+                                xtype: 'textfield',
+                                html: 'abc',
+                                itemId: 'kbPhoneNumTxtbox',
+                                style: 'background: #00001F; ',
+                                styleHtmlContent: true,
+                                label: '',
+                                readOnly: false
                             },
                             {
                                 xtype: 'container',
@@ -75,6 +77,7 @@ Ext.define('Wiztalk.view.WizMainTabPanel', {
                                     {
                                         xtype: 'button',
                                         html: '1<br><font size="2%">&nbsp;</font>',
+                                        id: 'kbButton1',
                                         itemId: 'kbButton1',
                                         style: '',
                                         styleHtmlContent: true,
@@ -86,6 +89,7 @@ Ext.define('Wiztalk.view.WizMainTabPanel', {
                                         xtype: 'button',
                                         cls: '',
                                         html: '2<br><font size="2%">ABC</font>',
+                                        id: 'kbButton2',
                                         itemId: 'kbButton2',
                                         styleHtmlContent: true,
                                         text: '',
@@ -94,6 +98,7 @@ Ext.define('Wiztalk.view.WizMainTabPanel', {
                                     {
                                         xtype: 'button',
                                         html: '3<br><font size="2%">DEF</font>',
+                                        id: 'kbButton3',
                                         itemId: 'kbButton3',
                                         styleHtmlContent: true,
                                         text: '',
@@ -112,6 +117,7 @@ Ext.define('Wiztalk.view.WizMainTabPanel', {
                                     {
                                         xtype: 'button',
                                         html: '4<br><font size="2%">GHI</font>',
+                                        id: 'kbButton4',
                                         itemId: 'kbButton4',
                                         styleHtmlContent: true,
                                         text: '',
@@ -120,6 +126,7 @@ Ext.define('Wiztalk.view.WizMainTabPanel', {
                                     {
                                         xtype: 'button',
                                         html: '5<br><font size="2%">JKL</font>',
+                                        id: 'kbButton5',
                                         itemId: 'kbButton5',
                                         styleHtmlContent: true,
                                         text: '',
@@ -128,6 +135,7 @@ Ext.define('Wiztalk.view.WizMainTabPanel', {
                                     {
                                         xtype: 'button',
                                         html: '6<br><font size="2%">MNO</font>',
+                                        id: 'kbButton6',
                                         itemId: 'kbButton6',
                                         styleHtmlContent: true,
                                         text: '',
@@ -146,6 +154,7 @@ Ext.define('Wiztalk.view.WizMainTabPanel', {
                                     {
                                         xtype: 'button',
                                         html: '7<br><font size="2%">PQRS</font>',
+                                        id: 'kbButton7',
                                         itemId: 'kbButton7',
                                         styleHtmlContent: true,
                                         text: '',
@@ -154,6 +163,7 @@ Ext.define('Wiztalk.view.WizMainTabPanel', {
                                     {
                                         xtype: 'button',
                                         html: '8<br><font size="2%">TUV </font>',
+                                        id: 'kbButton8',
                                         itemId: 'kbButton8',
                                         styleHtmlContent: true,
                                         text: '',
@@ -162,6 +172,7 @@ Ext.define('Wiztalk.view.WizMainTabPanel', {
                                     {
                                         xtype: 'button',
                                         html: '9<br><font size="2%">WXYZ</font>',
+                                        id: 'kbButton9',
                                         itemId: 'kbButton9',
                                         styleHtmlContent: true,
                                         text: '',
@@ -180,6 +191,7 @@ Ext.define('Wiztalk.view.WizMainTabPanel', {
                                     {
                                         xtype: 'button',
                                         html: '<font size="6%">*</font><br><font size="2%"> </font>',
+                                        id: 'kbButtonStar',
                                         itemId: 'kbButtonStar',
                                         styleHtmlContent: true,
                                         text: '',
@@ -188,6 +200,7 @@ Ext.define('Wiztalk.view.WizMainTabPanel', {
                                     {
                                         xtype: 'button',
                                         html: '0<br><font size="2%">+</font>',
+                                        id: 'kbButton0',
                                         itemId: 'kbButton0',
                                         styleHtmlContent: true,
                                         text: '',
@@ -310,7 +323,33 @@ Ext.define('Wiztalk.view.WizMainTabPanel', {
         ],
         tabBar: {
             docked: 'bottom'
-        }
+        },
+        listeners: [
+            {
+                fn: 'onKbButton1Tap',
+                event: 'tap',
+                delegate: '#kbButton1'
+            }
+        ]
+    },
+
+    onKbButton1Tap: function(button, e, options) {
+        console.log("kbButton1Tap calling sendDigit. button itemId: " + button.itemId + ", button id: " + button.id);
+        this.addDigit("kbButton1");
+    },
+
+    addDigit: function(digit) {
+        console.log("addDigit: " + digit);
+        var txtPN = this.down("#kbPhoneNumTxtbox");
+        var lbl = this.down("#kbInfoLabel");
+
+        lbl.setHtml("Shalom");
+        txtPN.setHtml("<b><font color='white' size='5pt'>Manish?</font></b>");
+
+
+
+        console.log("itemID:[" +txtPN.getName + "] id: [" + txtPN.getItemId + "]");
+
     }
 
 });

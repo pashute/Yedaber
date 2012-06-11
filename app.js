@@ -18,10 +18,6 @@ Ext.Loader.setConfig({
 });
 
 Ext.application({
-    requires: [
-        'Wiztalk.controller.override.KbController'
-    ],
-
     models: [
         'Contact'
     ],
